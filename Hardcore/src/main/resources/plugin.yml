@@ -1,0 +1,6 @@
+name: HardcorePlug
+version: '${project.version}'
+main: com.github.distriful5061.hardcore.hardcoreplug.HardcorePlug
+api-version: 1.18
+authors: [ distriful5061 ]
+website: https://github.com/distriful5061/Hardcore
