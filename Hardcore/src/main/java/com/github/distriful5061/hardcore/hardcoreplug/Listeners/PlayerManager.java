@@ -9,8 +9,7 @@ import org.bukkit.event.player.PlayerQuitEvent;
 import java.util.HashMap;
 
 public class PlayerManager implements Listener {
-    private static HashMap<Player, Integer> LLegsHealth = new HashMap<>();
-    private static HashMap<Player, Integer> RLegsHealth = new HashMap<>();
+    private static HashMap<Player, Integer> LegsHealth = new HashMap<>();
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent e){
